@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MultiColorLinearView_Example' do
+  pod 'MultiColorLinearView', :path => '../'
+
+  target 'MultiColorLinearView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
