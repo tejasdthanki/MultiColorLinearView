@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		088F941855A1A3066B1B0A6E /* Pods-MultiColorLinearView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiColorLinearView_Tests.release.xcconfig"; path = "Target Support Files/Pods-MultiColorLinearView_Tests/Pods-MultiColorLinearView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0AA6AD029D618ED0BFD7900E /* Pods_MultiColorLinearView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiColorLinearView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E6D3BA60301815016929670 /* MultiColorLinearView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MultiColorLinearView.podspec; path = ../MultiColorLinearView.podspec; sourceTree = "<group>"; };
+		1E6D3BA60301815016929670 /* MultiColorLinearView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MultiColorLinearView.podspec; path = ../MultiColorLinearView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		49FE9418184370B2FB9C04FB /* Pods-MultiColorLinearView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiColorLinearView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MultiColorLinearView_Tests/Pods-MultiColorLinearView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D9F285C983982FD8D79E09C /* Pods-MultiColorLinearView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiColorLinearView_Example.debug.xcconfig"; path = "Target Support Files/Pods-MultiColorLinearView_Example/Pods-MultiColorLinearView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MultiColorLinearView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiColorLinearView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +43,9 @@
 		607FACE51AFB9204008FA782 /* MultiColorLinearView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiColorLinearView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A75793E82708C33645D5EBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6A75793E82708C33645D5EBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7E2752BF1057F70D532DDDB8 /* Pods_MultiColorLinearView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiColorLinearView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6AC39D17DA4735064AD21A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B6AC39D17DA4735064AD21A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DC303B5627C4BD13E8620203 /* Pods-MultiColorLinearView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiColorLinearView_Example.release.xcconfig"; path = "Target Support Files/Pods-MultiColorLinearView_Example/Pods-MultiColorLinearView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				49FE9418184370B2FB9C04FB /* Pods-MultiColorLinearView_Tests.debug.xcconfig */,
 				088F941855A1A3066B1B0A6E /* Pods-MultiColorLinearView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KH48JKNAG4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,13 +479,14 @@
 			baseConfigurationReference = 5D9F285C983982FD8D79E09C /* Pods-MultiColorLinearView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KH48JKNAG4;
 				INFOPLIST_FILE = MultiColorLinearView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.multicolorview.view;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +495,14 @@
 			baseConfigurationReference = DC303B5627C4BD13E8620203 /* Pods-MultiColorLinearView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KH48JKNAG4;
 				INFOPLIST_FILE = MultiColorLinearView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.multicolorview.view;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

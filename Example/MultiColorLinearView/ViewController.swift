@@ -7,11 +7,16 @@
 //
 
 import UIKit
-
+import MultiColorLinearView
+//import MultiColorLinearView
 class ViewController: UIViewController {
-
+    @IBOutlet weak var multiColorView: MultiColorLinearView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        multiColorView.values = [0.25,0.25,0.25,0.25]
+        multiColorView.colors = [UIColor.systemPink.cgColor,UIColor.systemBlue.cgColor,UIColor.systemYellow.cgColor,UIColor.systemGreen.cgColor]
+        multiColorView.setNeedsDisplay()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

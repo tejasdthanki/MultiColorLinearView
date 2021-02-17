@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MultiColorLinearView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MultiColorLinearView.'
+  s.summary          = 'view is used to display multiple colors in single view'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'view is used display multiple colors in single view.you can set multiple color in percentage.And range is 0 to 1,total sum shold be 1.0'
                        DESC
 
   s.homepage         = 'https://github.com/tejasdthanki/MultiColorLinearView'
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'MultiColorLinearView/Classes/**/*'
   
   # s.resource_bundles = {
