@@ -1,0 +1,6 @@
+framework module MultiColorLinearView {
+  umbrella header "MultiColorLinearView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MultiColorLinearView (0.1.0)
+
+DEPENDENCIES:
+  - MultiColorLinearView (from `../`)
+
+EXTERNAL SOURCES:
+  MultiColorLinearView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MultiColorLinearView: 3cce16a6186be260ca2455b1ffaa18597bc82091
+
+PODFILE CHECKSUM: 33cd75bbbfea5680e368b3126bc108cc0a9d64dc
+
+COCOAPODS: 1.10.1
