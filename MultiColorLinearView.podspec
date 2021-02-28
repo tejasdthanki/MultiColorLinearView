@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/tejasdthanki/MultiColorLinearView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/tejasdthanki/MultiColorLinearView/blob/master/Example/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20mini%20-%202021-02-17%20at%2019.48.46.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tejasdthanki' => 'tejasdthanki@yahoo.com' }
   s.source           = { :git => 'https://github.com/tejasdthanki/MultiColorLinearView.git', :tag => s.version.to_s }
